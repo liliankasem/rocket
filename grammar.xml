@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar
+  version="1.0" mode="voice" root="commands"
+  xml:lang="en-US" tag-format="semantics/1.0"
+  xmlns="http://www.w3.org/2001/06/grammar">
+
+  <rule id="commands">
+    <one-of>
+      <item>
+        <ruleref uri="#launch"/>
+      </item>
+      <item>
+        <ruleref uri="#move"/>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="launch">
+    <one-of>
+      <item>go</item>
+      <item>launch</item>
+      <item>start</item>
+    </one-of>
+  </rule>
+  <rule id="move">
+    <one-of>
+      <item>
+        move the rocket
+        <ruleref uri="#direction" />
+        <tag> out.action=rules.latest(); </tag>
+      </item>
+    </one-of>
+  </rule>
+  <rule id="direction">
+    <one-of>
+      <item>
+        <tag>out="left";</tag>
+        <one-of>
+          <item>left</item>
+          <item>anticlockwise</item>
+        </one-of>
+      </item>
+      <item>
+        <tag>out="right";</tag>
+        <one-of>
+          <item>right</item>
+          <item>clockwise</item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
