@@ -1,0 +1,2 @@
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\OxfordVerificationLibrary.csproj;neutral
+C:\Users\likasem\Desktop\Show1\UWPSpeechRecognitionAndOxfordIdentification\Demo2_RocketLaunch.csproj;x86

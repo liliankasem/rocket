@@ -1,0 +1,16 @@
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\bin\Debug\OxfordVerificationLibrary.dll
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\bin\Debug\OxfordVerificationLibrary.pdb
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\bin\Debug\OxfordVerificationLibrary.pri
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\OxfordVerificationLibrary.dll
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\OxfordVerificationLibrary.pdb
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\priconfig.xml
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\priconfig.xml.intermediate
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\layout.resfiles
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\layout.resfiles.intermediate
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\resources.resfiles
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\resources.resfiles.intermediate
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\pri.resfiles
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\pri.resfiles.intermediate
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\qualifiers.txt
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\qualifiers.txt.intermediate
+C:\Users\likasem\Desktop\Show1\OxfordVerificationLibrary\obj\Debug\MultipleQualifiersPerDimensionFound.txt

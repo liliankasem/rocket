@@ -1,0 +1,64 @@
+﻿<Page
+  x:Class="Demo2_RocketLaunch.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:Demo2_RocketLaunch"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d">
+
+  <Grid Background="Black">
+    <Grid.RowDefinitions>
+      <RowDefinition />
+      <RowDefinition
+        Height="Auto" />
+    </Grid.RowDefinitions>
+    <Grid x:ConnectionId='1'
+      x:Name="gridGame">
+    </Grid>
+    <StackPanel
+      Margin="8"
+      Orientation="Horizontal"
+      HorizontalAlignment="Center"
+      Grid.Row="1">
+      <ToggleSwitch
+        Grid.Row="1"
+        Foreground="White"
+        RequestedTheme="Dark"
+        IsOn="{Binding IsSecure,Mode=TwoWay}">
+        <ToggleSwitch.OnContent>
+          Secure Launch
+        </ToggleSwitch.OnContent>
+        <ToggleSwitch.OffContent>
+          Open Launch
+        </ToggleSwitch.OffContent>
+      </ToggleSwitch>
+      <Button
+        Margin="8"
+        RequestedTheme="Dark"
+        Content="Add User">
+        <Button.Flyout>
+          <Flyout>
+            <StackPanel
+              Orientation="Horizontal">
+              <TextBox
+                Width="240"
+                Text="{Binding UserToAdd,Mode=TwoWay}"/>
+              <Button x:ConnectionId='2'
+                Content="Add"
+                                  />
+            </StackPanel>
+          </Flyout>
+        </Button.Flyout>
+      </Button>
+      <ComboBox
+        MinWidth="240"
+        Margin="8"
+        ItemsSource="{Binding LaunchUsers}"
+        SelectedItem="{Binding LaunchUser,Mode=TwoWay}" 
+        VerticalAlignment="Center"/>
+    </StackPanel>
+    
+  </Grid>
+</Page>
+
